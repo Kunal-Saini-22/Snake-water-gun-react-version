@@ -28,7 +28,7 @@
     width: 100vw;
 
     /* position: relative; */
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
 }
 
 .table{
@@ -36,7 +36,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     /* position: relative; */
 }
 

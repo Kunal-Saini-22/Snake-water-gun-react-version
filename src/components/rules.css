@@ -11,7 +11,11 @@
     position: fixed;
     z-index: 2000;
     padding: 10px;
-    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* 
 .close{
@@ -26,6 +30,11 @@
     right: -95%;
 } */
 
+.cover-text{
+
+    text-align: justify;
+}
+
 .rule-font{
     display: block;
     color: rgb(84, 2, 2);
@@ -33,6 +42,7 @@
     -webkit-text-stroke-color: white;
     font-size: 2.5rem;
     font-weight: 700;
+    margin: 2px 0px 2px 0px;
 }
 
 .rule-heading{

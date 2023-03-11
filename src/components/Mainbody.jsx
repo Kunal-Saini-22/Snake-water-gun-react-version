@@ -63,6 +63,26 @@ function incrementPoints()
   else if(increment === "computerScore"){
     setcomputerScore(()=>computerScore+1);
   }
+
+  // deciding winner
+  if(userScore === 14 && computerScore < 14)
+  {
+    setdisplayText(()=>("You Win !!"));
+    setuserScore(0);
+    setcomputerScore(0);
+
+  }
+  else if(userScore < 14 && computerScore === 14)
+  {
+    setdisplayText(()=>("You Lost !!"));
+    setuserScore(0);
+    setcomputerScore(0);
+  }
+  else if(userScore === 14 && computerScore === 14){
+    setdisplayText(()=>("Game Draw !!"));
+    setuserScore(0);
+    setcomputerScore(0);
+  }
 }
 
   return (

@@ -16,8 +16,6 @@ function App() {
 
   return (
     <>
-      <div className = "outerbox" >
-        <div className = "innerbox">
           <Navbar/>
           <div>
           <button className='rules-button' onClick={switching}>
@@ -30,8 +28,6 @@ function App() {
           <Mainbody setuserScore = {setuserScore}  setcomputerScore = {setcomputerScore} userScore = {userScore} computerScore = {computerScore} setdisplayText = {setdisplayText}/>
 
           <Footer/>
-        </div>
-      </div>
     </>
     );
 }

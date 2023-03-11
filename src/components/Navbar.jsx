@@ -6,7 +6,8 @@ import Rules from './Rules';
 function Navbar() {
   return (
    <div>
-    <div className='navbar' style={{backgroundImage:`url(${image})`}}><span className='nav-text'>Snake - Water - Gun</span></div></div>
+    <div className='navbar' style={{backgroundImage:`url(${image})`}}><span className='nav-text'>Snake - Water - Gun</span></div>
+    </div>
 
   )
 }
