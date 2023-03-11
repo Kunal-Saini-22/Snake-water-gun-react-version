@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.rules-button{
+  border-radius:5px;
+  width:85px;
+  height:45px;
+  margin-top:3px;
+  margin-left: 2px;
+  background-color: white;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.button-text-display{
+  font-size:1.4rem;
+  font-weight:bolder;
+}
+
+.rules-button:hover{
+  background-color: grey;
+}
+
+@media (max-width:430px)
+{
+  .rules-button{
+    width: 65px;
+    height: 40px;
+  }
+
+  .button-text-display{
+    font-size: 1rem;
+  }
+}

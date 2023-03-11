@@ -1,0 +1,102 @@
+.result{
+    border: 9px solid rgb(79, 34, 1);
+    /* margin: 10px; */
+    background-color: white;
+    height: 120px;
+    border-radius: 8px;
+
+    margin:2px 0px 2px 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 2.8rem;
+    font-family: 'PT Sans', sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/002/173/386/small/wood-texture-background-free-vector.jpg');
+
+    color: white;
+    margin-top: 10px;
+
+}
+
+.box-table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+
+    /* position: relative; */
+    border: 2px solid greenyellow;
+}
+
+.table{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+    /* position: relative; */
+}
+
+.score-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 80px;
+    background-color: white;
+    /* border-radius: 50%; */
+    color: black;
+    border-radius: 8%;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.score-title{
+    font-size: 2rem;
+}
+
+.result-display{
+    height: 60px;
+    width: 500px;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+    margin-left: 8px;
+    
+    /* overflow: hidden;
+    white-space: nowrap; */
+}
+
+@media screen and (max-width : 860px){
+    
+    .result-display{
+        height: 55px;
+        width: 400px;  
+        font-size: 2rem;
+    }
+
+    .score-title{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:450px){
+
+    .result-display{
+        display: none;
+    }   
+}
+
+@media (max-width : 630px){
+    .result-display{
+        width:40%;
+    white-space: nowrap;
+    overflow: scroll;
+    }
+}
