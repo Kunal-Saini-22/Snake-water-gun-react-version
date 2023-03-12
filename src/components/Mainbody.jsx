@@ -68,6 +68,7 @@ function incrementPoints()
   if(userScore === 14 && computerScore < 14)
   {
     setdisplayText(()=>("You Win !!"));
+    alert("You Win !!");
     setuserScore(0);
     setcomputerScore(0);
 
@@ -75,6 +76,7 @@ function incrementPoints()
   else if(userScore < 14 && computerScore === 14)
   {
     setdisplayText(()=>("You Lost !!"));
+    alert("You Lost !!");
     setuserScore(0);
     setcomputerScore(0);
   }
