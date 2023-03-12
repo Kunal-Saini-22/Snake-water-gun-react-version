@@ -60,6 +60,10 @@
     font-size: 2rem;
 }
 
+.score-title-small{
+    font-size: 2rem;
+}
+
 .result-display{
     height: 60px;
     width: 500px;
@@ -97,6 +101,11 @@
     .result-display{
         width:40%;
     white-space: nowrap;
-    overflow: scroll;
+    /* overflow: scroll; */
+    }
+
+    .score-title-small{
+        font-size: 0.9rem;
+        font-weight: 600;
     }
 }

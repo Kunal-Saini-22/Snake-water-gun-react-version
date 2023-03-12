@@ -12,7 +12,7 @@ function Result({userScore , computerScore , displayText}) {
         <div className='score-card your-score'><span className='score-title'>{userScore}</span></div>
         </div>
         
-        <div className='result-display'><span className='score-title'>{displayText}</span></div>
+        <div className='result-display'><span className='score-title-small'>{displayText}</span></div>
 
         <div className = "table">
         <div><span className='score-title'>Computer</span></div>
